@@ -42,3 +42,22 @@ k8s-monitoring-dashboards/
 │ ├── api-latency.json
 │ └── network-traffic.json
 └── exporters/
+
+
+---
+
+## ▶️ Usage
+Import any dashboard JSON into Grafana:
+
+**Grafana → Dashboards → Import → Upload JSON**
+
+Ensure the following exporters exist:
+- kube-state-metrics
+- metrics-server
+- node exporter
+
+---
+
+## 📜 License
+MIT License
+
